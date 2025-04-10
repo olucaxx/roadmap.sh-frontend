@@ -24,7 +24,7 @@ main {
   justify-content: space-between;
 }
 
-#card-one #card-text {
+#card-one .card-text {
   background-color: black;
   color: #fff;
   padding: 0px 20px 0px;
@@ -34,7 +34,7 @@ main {
   margin-bottom: 5px;
 }
 
-#card-one #card-text::after {
+#card-one .card-text::after {
   content: " ";
   position: absolute;
   top: 100%;
@@ -78,16 +78,15 @@ main {
   padding: 5px;
 }
 
-.profile-card #name {
+.profile-card .name {
   font-size: larger;
   margin: 0px;
 }
 
-.profile-card #role {
+.profile-card .role {
   font-size: small;
   margin: 0px;
 }
-
 
 #card-three {
   display: flex;
@@ -100,30 +99,30 @@ main {
   border-radius: 25px;
 }
 
-#card-three #card-content {
+#card-three .card-content {
   background-color: black;
   color: white;
   border-radius: 25px;
   padding: 20px 20px 10px;
 }
 
-#card-content #rating-stars {
+.card-content .rating-stars {
   font-size: 25px;
   color: yellow;
 }
 
-#card-content #name {
+.card-content .name {
   font-size: x-large;
   margin: 0px;
 }
 
-#card-content #role {
+.card-content .role {
   font-size: medium;
   color: gray;
   margin: 0px;
 }
 
-#card-content #review {
+.card-content .review {
   font-size: medium;
   margin: 10px 0px 10px 0px;
 }
@@ -139,38 +138,58 @@ main {
   justify-content: center;
 }
 
-#card-four #review {
+#card-four .review {
   margin: 20px 55px 10px 55px;
   text-align: center;
 }
 
-#card-four #review-selector {
+#card-four .review-selector {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-top: 20px;
 }
 
-#card-four #review-selector img {
+#card-four .review-selector img {
   width: 50px;
   height: 50px;
   opacity: 0.5;
   border-radius: 50%;
 }
 
-#card-four #review-selector span {
+#card-four .review-selector span {
   font-size: 20px;
   color: black;
   margin: 10px;
 }
 
-#card-four #review-selector #selected {
+#card-four .review-selector #selected {
   width: 60px;
   height: 60px;
   opacity: 1;
 }
 
-#card-four #name{
+#card-four .name{
   font-size: large;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 95%;
+  }
+
+  #section-one {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #card-one, #card-two {
+    width: auto;
+  }
+
+
+  #card-four .review {
+    margin: 10px;
+  }
 }
