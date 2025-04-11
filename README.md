@@ -7,3 +7,7 @@
 2. Testimonial Cards
 - [Descrição do Projeto](https://roadmap.sh/projects/testimonial-cards)
 - [Minha tentativa](./testimonial-cards)
+
+3. Tooltip UI
+- [Descrição do Projeto](https://roadmap.sh/projects/tooltip-ui)
+- [Minha tentativa](./tooltip-ui)
