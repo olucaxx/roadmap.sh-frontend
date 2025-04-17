@@ -11,3 +11,7 @@
 3. Tooltip UI
 - [Descrição do Projeto](https://roadmap.sh/projects/tooltip-ui)
 - [Minha tentativa](./tooltip-ui)
+
+4. Simple Tabs
+- [Descrição do Projeto](https://roadmap.sh/projects/simple-tabs)
+- [Minha tentativa](./simple-tabs)
