@@ -19,3 +19,7 @@
 5. Restricted Textarea
 - [Descrição do Projeto](https://roadmap.sh/projects/restricted-textarea)
 - [Minha tentativa](./restricted-textarea)
+
+6. Restricted Textarea
+- [Descrição do Projeto](https://roadmap.sh/projects/changelog-component)
+- [Minha tentativa](./changelog-component)
