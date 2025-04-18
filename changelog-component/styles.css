@@ -1,0 +1,77 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+main {
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 600px;
+    padding: 20px 0px;
+}
+
+.changelog-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.changelog-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.changelog-item::after {
+    position: absolute;
+    content: "";
+    height: 150%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 15px;
+    left: 201px;
+}
+
+.changelog-item .date {
+    color: gray;
+    width: 180px;
+    text-align: right;
+}
+
+.changelog-item .text {
+    max-width: 500px;
+    margin-right: 20px;
+}
+
+.changelog-dot {
+    align-self: center;
+    content: "";
+    border-style: solid;
+    border-color: black;
+    border-width: 7px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
