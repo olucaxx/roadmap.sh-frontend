@@ -15,3 +15,7 @@
 4. Simple Tabs
 - [Descrição do Projeto](https://roadmap.sh/projects/simple-tabs)
 - [Minha tentativa](./simple-tabs)
+
+5. Restricted Textarea
+- [Descrição do Projeto](https://roadmap.sh/projects/restricted-textarea)
+- [Minha tentativa](./restricted-textarea)
