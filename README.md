@@ -12,14 +12,14 @@
 - [Descrição do Projeto](https://roadmap.sh/projects/tooltip-ui)
 - [Minha tentativa](./tooltip-ui)
 
-4. Simple Tabs
+4. Changelog Component
+- [Descrição do Projeto](https://roadmap.sh/projects/changelog-component)
+- [Minha tentativa](./changelog-component)
+
+5. Simple Tabs
 - [Descrição do Projeto](https://roadmap.sh/projects/simple-tabs)
 - [Minha tentativa](./simple-tabs)
 
-5. Restricted Textarea
+6. Restricted Textarea
 - [Descrição do Projeto](https://roadmap.sh/projects/restricted-textarea)
 - [Minha tentativa](./restricted-textarea)
-
-6. Restricted Textarea
-- [Descrição do Projeto](https://roadmap.sh/projects/changelog-component)
-- [Minha tentativa](./changelog-component)
