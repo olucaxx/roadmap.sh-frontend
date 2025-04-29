@@ -1,0 +1,1 @@
+![Preview](https://raw.githubusercontent.com/olucaxx/roadmap.sh-frontend/main/screenshots/image-grid.png)
