@@ -23,3 +23,7 @@
 6. Restricted Textarea
 - [Descrição do Projeto](https://roadmap.sh/projects/restricted-textarea)
 - [Minha tentativa](./restricted-textarea)
+
+7. Custom Dropdown
+- [Descrição do Projeto](https://roadmap.sh/projects/custom-dropdown)
+- [Minha tentativa](./custom-dropdown)

@@ -2,6 +2,33 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;   
+    align-items: center;
+}
+
+#submit {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#submit:hover {
+    background-color: #f0f0f0;
+}
+
 .dropdown-div {
     position: relative;
     display: inline-block;
@@ -18,7 +45,7 @@
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: transparent;
+    background-color: white;
     cursor: pointer;
     box-sizing: border-box;
 }
@@ -53,10 +80,11 @@
     padding: 10px;
     text-align: left;
     border: none;
-    background: none;
+    background-color: white;
     cursor: pointer;
     box-sizing: border-box;
     border-bottom: 1px solid black;
+    border-radius: 0;
 }
 
 .dropdown-option:last-child {

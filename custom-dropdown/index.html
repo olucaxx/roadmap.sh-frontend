@@ -8,16 +8,35 @@
     <title>Custom Dropdown</title>
 </head>
 <body>
-    <div class="dropdown-div">
-        <button class="dropdown-button"><span class="dropdown-text">Select an Item</span><span class="dropdown-icon">v</span></button>
-        <div class="dropdown-content">
-            <button class="dropdown-option"><span class="dropdown-text">First Item</span><span class="dropdown-icon"></span></button>
-            <button class="dropdown-option"><span class="dropdown-text">Second Item</span><span class="dropdown-icon"></span></button>
-            <button class="dropdown-option"><span class="dropdown-text">Third Item</span><span class="dropdown-icon"></span></button>
-            <button class="dropdown-option"><span class="dropdown-text">Fourth Item</span><span class="dropdown-icon"></span></button>
-            <button class="dropdown-option"><span class="dropdown-text">Fifth Item</span><span class="dropdown-icon"></span></button>
+    <form id="form">
+        <div class="dropdown-div">
+            <input type="hidden" id="dropdown" name="dropdown"> <!-- utilizado para armazenar o valor -->
+
+            <button type="button" class="dropdown-button"> <!-- todos os <button> tem que ser do type button -->
+                <span class="dropdown-text">Select an Item</span>
+                <span class="dropdown-icon">v</span>
+            </button>
+
+            <div class="dropdown-content">
+                <button type="button" class="dropdown-option">
+                    <span class="dropdown-text">First Item</span>
+                    <span class="dropdown-select"></span></button>
+                <button type="button" class="dropdown-option">
+                    <span class="dropdown-text">Second Item</span>
+                    <span class="dropdown-select"></span></button>
+                <button type="button" class="dropdown-option">
+                    <span class="dropdown-text">Third Item</span>
+                    <span class="dropdown-select"></span></button>
+                <button type="button" class="dropdown-option">
+                    <span class="dropdown-text">Fourth Item</span>
+                    <span class="dropdown-select"></span></button>
+                <button type="button" class="dropdown-option">
+                    <span class="dropdown-text">Fifth Item</span>
+                    <span class="dropdown-select"></span></button>
+            </div>
         </div>
-    </div>
+        <button id="submit" type="submit">Submit</button>
+    </form>
     <script src="script.js"></script>
 </body>
 </html>
