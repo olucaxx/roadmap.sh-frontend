@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <main>
+        <h1>Temperature Converter</h1>
+        <p>Enter the temperature, select units and submit</p>
+
+        <form id="temp-form">
+            <input id="temp-input" type="number" name="temp" value="0.00">
+
+            <div id="from-temp-dropdown" class="dropdown-div">
+                <input id="from-temp" type="hidden" name="from"> 
+
+                <button type="button" class="dropdown-button"> 
+                    <span class="dropdown-text">From unit</span>
+                    <span class="dropdown-icon">v</span>
+                </button>
+
+                <div class="dropdown-content">
+                    <button type="button" class="dropdown-option">
+                        <span class="option-text">Fahrenheit</span>
+                        <span class="option-icon"></span></button>
+                    <button type="button" class="dropdown-option">
+                        <span class="option-text">Celsius</span>
+                        <span class="option-icon"></span></button>
+                    <button type="button" class="dropdown-option">
+                        <span class="option-text">Kelvin</span>
+                        <span class="option-icon"></span></button>
+                </div>
+            </div>
+
+            <div id="to-temp-dropdown" class="dropdown-div">
+                <input id="to-temp" type="hidden" name="to"> 
+
+                <button type="button" class="dropdown-button"> 
+                    <span class="dropdown-text">To unit</span>
+                    <span class="dropdown-icon">v</span>
+                </button>
+
+                <div class="dropdown-content">
+                    <button type="button" class="dropdown-option">
+                        <span class="option-text">Fahrenheit</span>
+                        <span class="option-icon"></span></button>
+                    <button type="button" class="dropdown-option">
+                        <span class="option-text">Celsius</span>
+                        <span class="option-icon"></span></button>
+                    <button type="button" class="dropdown-option">
+                        <span class="option-text">Kelvin</span>
+                        <span class="option-icon"></span></button>
+                </div>
+            </div>
+
+            <button id="submit" type="submit">Convert</button>
+        </div> 
+        </form>   
+        <p id="result"></p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
