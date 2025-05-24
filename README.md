@@ -27,3 +27,7 @@
 7. Custom Dropdown
 - [Descrição do Projeto](https://roadmap.sh/projects/custom-dropdown)
 - [Minha tentativa](./custom-dropdown)
+
+8. Temperature Converter
+- [Descrição do Projeto](https://roadmap.sh/projects/temperature-converter)
+- [Minha tentativa](./temperature-converter)

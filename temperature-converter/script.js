@@ -81,26 +81,29 @@ function convertTemperature(temp, fromUnit, toUnit) {
     // from Fahrenheit
     if (fromUnit == 0) {
         if (toUnit == 1) { // to Celsius
-            return (temp-32) * (5/9)
+            return (temp-32) / 1.8
         }
         if (toUnit == 2) { // to Kelvin
-            return (temp-32) * (5/9) + 273.15
+            return (temp-32) * 5/9 + 273.15
         }
     }
     // from Celsius
     if (fromUnit == 1) {
         if (toUnit == 0) { // to Fahrenheit
-            return temp * (5/9) + 32
+            return temp * 1.8 + 32
         }
         if (toUnit == 2) { // to Kelvin
             return temp + 273.15
         }
     }
     // from Kelvin
-    if (toUnit == 0) { // to Fahrenheit
-        return (temp - 273.15) * (5/9) + 32
+    if (fromUnit == 2) {
+        if (toUnit == 0) { // to Fahrenheit
+            return (temp - 273.15) * 1.8 + 32
+        }
+        if (toUnit == 1) { // to Celsius
+            return temp - 273.15
+        }
     }
-    if (toUnit == 1) { // to Celsius
-        return temp - 273.15
-    }
+    return NaN
 } 
